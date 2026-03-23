@@ -1,10 +1,10 @@
-NAME = 
+NAME = PmergeMe
 
 CC = c++
 CXXFLAGS = -std=c++98 -Wall -Wextra -Werror
 LDFLAGS = 
 
-SRC = 
+SRC = main.cpp PmergeMe.cpp
 OBJ = $(SRC:.cpp=.o)
 
 all: $(NAME)
